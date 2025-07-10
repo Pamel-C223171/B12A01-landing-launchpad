@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    
+}
+
 header{
     background-image: url("/B12A01-landing-launchpad/Assets/Hero-bg.png");
     background-repeat: no-repeat;
@@ -81,6 +85,8 @@ nav{
 }
 
 main{
+    width: 1140px;
+    margin: auto;
     margin-top: 116px;
 }
 
@@ -118,8 +124,43 @@ main{
     /* padding: 12px 36px; */
 }
 
-.wcmini{
+.imgwcmini{
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+
+.section2{
+    margin-top: 152px;
+    background-color: #4E47FF1A;
+    padding: 50px 142px;
+    margin-bottom: 137px;
+}
+
+.main-div-2{
+    justify-content: center;
+}
+
+.users{
+    font-size: 38px;
+    text-align: center;
+}
+
+.view{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.number{
+    font-size: 80px;
+}
+
+.viewpara{
+    font-size: 20px;
+    font-weight: 400px;
+  font-style: normal;
+  color: #00000080;
 }
