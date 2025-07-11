@@ -33,7 +33,7 @@ nav{
 .font-inter-bold {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 900px;
+    font-weight: 900;
     font-style: bold;
 }
 
@@ -44,7 +44,6 @@ nav{
     font-size: 16px;
     background-color: #4E47FF;
     color: #FFFFFF;
-
     border: none;
     border-radius: 10px;
 }
@@ -70,14 +69,21 @@ nav{
 .font-raleway-bold {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700px;
+    font-weight: 700;
     font-style: bold;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .font-raleway {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700px;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -86,6 +92,7 @@ nav{
     width: 174px;
     height: 48px;
     margin: 37px;
+    font-size: 16px;
 }
 
 main {
@@ -120,6 +127,7 @@ main {
 .section-description {
     font-size: 24px;
     color: #25243280;
+    font-weight: 400;
 }
 
 .preview-btn {
@@ -155,17 +163,18 @@ main {
 .view {
     display: flex;
     margin-top: 40px;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
 }
 
 .user-number {
     font-size: 80px;
+    font-weight: 700;
 }
 
 .user-des {
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
     color: #00000080;
 }
@@ -219,7 +228,7 @@ main {
 
 .review-description {
     color: #1E1E1E;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
     font-size: 16px;
     margin-top: 10px;
@@ -230,15 +239,20 @@ main {
     gap: 10px;
 }
 
+.reviewer-img{
+    border-radius: 100%;
+}
+
 .reviewer {
     color: #757575;
-    font-weight: 600px;
+    font-weight: 600;
     font-style: normal;
     font-size: 16px;
 }
 
 .review-date {
     color: #B3B3B3;
+    font-size: 16px;
 }
 
 
@@ -258,19 +272,19 @@ main {
 
 .free-heading {
     font-size: 50px;
-    font-weight: 700px;
+    font-weight: 700;
     text-align: center;
 }
 
 .free-subtitle {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #00000080;
 }
 
 .free-btn {
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     width: 195px;
     padding: 12px 36px;
 
@@ -309,7 +323,7 @@ form input {
     height: 70px;
     padding: 20px 32px;
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 form textarea {
@@ -330,10 +344,70 @@ form label {
 
 label{
     margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .contact-btn{
     width: 100%;
     font-size: 16px;
     margin-top: 19px;
+    
+}
+
+footer{
+    
+    background-color: #FFFFFF;
+    padding: 104px;
+}
+
+.foter-content{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foter-brand{
+    width: 531px;
+}
+
+footer ul{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    padding: 20px 65px 0px;
+    margin-bottom: 20px;
+    
+}
+
+.foter-description , a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+.foter-heading{
+    font-size: 100px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    
+}
+
+footer li{
+    list-style: none;
+    
+}
+
+form input{
+    border-radius: 10px;
+}
+
+form textarea{
+    border-radius: 10px;
 }
