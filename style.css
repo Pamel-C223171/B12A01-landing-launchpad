@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url("/B12A01-landing-launchpad/Assets/Hero-bg.png");
+    background-image: url("./B12A01-landing-launchpad/Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 152px;
@@ -16,7 +16,6 @@ header {
 
 nav{
     width: 1140px;
-    /* height: 151px; */
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -204,7 +203,6 @@ main {
 .card {
     background-color: #FFFFFF;
     width: 366px;
-    /* height: 243px; */
     display: flex;
     flex-direction: column;
     gap: 20px;
